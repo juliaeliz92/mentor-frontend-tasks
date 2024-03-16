@@ -7,7 +7,7 @@ function App() {
 			<nav>
 				<ul>
 					<li>
-						<Link to={'/result-summary-component'}>Result Summary Component</Link>
+						<Link to={'/task/result-summary-component'}>Result Summary Component</Link>
 					</li>
 				</ul>
 			</nav>

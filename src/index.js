@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  BrowserRouter, Routes, Route
+	BrowserRouter, Routes, Route
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Tasks, { ResultSummaryComponent } from "./Tasks";
+import Tasks, { ResultSummaryComponent } from "./tasks";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,9 +14,9 @@ root.render(
 <React.StrictMode>
 	<BrowserRouter>
 		<Routes>
-			<Route path="/" element={<App/>} />
-			<Route path="/" element={<Tasks />}>
-				<Route path="/result-summary-component" element={<ResultSummaryComponent/>} />
+			<Route path="mentor-frontend-tasks" element={<App/>} />
+			<Route path="task" element={<Tasks />}>
+				<Route path="result-summary-component" element={<ResultSummaryComponent/>} />
 			</Route>
 			<Route path="*" element={<p>404! Page not found!</p>} />
 		</Routes>
