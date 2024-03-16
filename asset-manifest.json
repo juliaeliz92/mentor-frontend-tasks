@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mentor-frontend-tasks/static/css/main.a9041707.css",
+    "main.js": "/mentor-frontend-tasks/static/js/main.e6c80cd5.js",
+    "static/js/453.099ac8a1.chunk.js": "/mentor-frontend-tasks/static/js/453.099ac8a1.chunk.js",
+    "index.html": "/mentor-frontend-tasks/index.html",
+    "main.a9041707.css.map": "/mentor-frontend-tasks/static/css/main.a9041707.css.map",
+    "main.e6c80cd5.js.map": "/mentor-frontend-tasks/static/js/main.e6c80cd5.js.map",
+    "453.099ac8a1.chunk.js.map": "/mentor-frontend-tasks/static/js/453.099ac8a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9041707.css",
+    "static/js/main.e6c80cd5.js"
+  ]
+}
