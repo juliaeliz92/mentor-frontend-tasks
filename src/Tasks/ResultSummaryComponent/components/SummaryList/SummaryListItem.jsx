@@ -11,7 +11,7 @@ export default function SummaryListItem({summary, color}) {
         marginBottom='1.5'
     >
         <Flex>
-            <Image src={summary.icon} marginRight='3'/>
+            <Image src={`${process.env.PUBLIC_URL}/images/${summary.icon}`} marginRight='3'/>
             {summary.category}
         </Flex>
         <Flex>

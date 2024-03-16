@@ -1,6 +1,6 @@
 import { VStack } from '@chakra-ui/react'
 import SummaryListItem from './SummaryListItem';
-import data from './../../data.json';
+import data from 'data.json';
 
 export default function SummaryList() {
     const colorCodes = [
@@ -16,6 +16,7 @@ export default function SummaryList() {
             <SummaryListItem 
                 summary={dt}
                 color={colorCodes[ind]}
+                key={ind}
             />
         )}
     </VStack>)

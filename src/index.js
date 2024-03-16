@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Tasks, { ResultSummaryComponent } from "./tasks";
+import Tasks, { ResultSummaryComponent } from "tasks";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

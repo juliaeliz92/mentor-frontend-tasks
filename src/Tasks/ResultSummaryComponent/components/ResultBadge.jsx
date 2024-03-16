@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Box, Heading, Text } from "@chakra-ui/react";
-import data from './../data.json';
+import data from 'data.json';
 
 export default function ResultBadge() {
     const [resultPercent, setResultPercent] = React.useState(0)
