@@ -1,6 +1,7 @@
 import { Image, Flex, Text } from "@chakra-ui/react"
 
 export default function SummaryListItem({summary, color}) {
+    console.log(process.env.PUBLIC_URL)
     return(<Flex
         backgroundColor={color[0]}
         color={color[1]}

@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Tasks, { ResultSummaryComponent } from "tasks";
+import Tasks, { ResultSummaryComponent, NewLetterSignUp } from "tasks";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +17,7 @@ root.render(
 			<Route path="mentor-frontend-tasks" element={<App/>} />
 			<Route path="task" element={<Tasks />}>
 				<Route path="result-summary-component" element={<ResultSummaryComponent/>} />
+				<Route path="newsletter-signup" element={<NewLetterSignUp />} />
 			</Route>
 			<Route path="*" element={<p>404! Page not found!</p>} />
 		</Routes>
